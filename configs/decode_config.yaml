@@ -14,11 +14,11 @@
 
 model:
   # paths
-  llama_path: "path to llama model"
-  whisper_path: "path to whisper model"
-  beats_path: "path to beats model"
+  llama_path: "C:\\Users\\38644\\PycharmProjects\\LLAMA\\vicuna-13b-v1.1"
+  whisper_path: "C:\\Users\\38644\\PycharmProjects\\whisper\\whisper-large-v2"
+  beats_path: "C:\\Users\\38644\\PycharmProjects\\BEATS"
 
-  ckpt: "model ckpt" # model used for decoding
+  ckpt: "C:\\Users\\38644\\PycharmProjects\\SalmonnModel" # model used for decoding
 
   freeze_whisper: True
   freeze_beats: True

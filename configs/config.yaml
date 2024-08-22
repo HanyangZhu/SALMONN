@@ -14,11 +14,11 @@
 
 model:
   # paths
-  llama_path: "path to llama model"
-  whisper_path: "path to whisper model"
-  beats_path: "path to beats model"
+  llama_path: "C:\Users\38644\PycharmProjects\LLAMA\vicuna-13b-v1.1\pytorch_model.bin.index.json"
+  whisper_path: "C:\Users\38644\PycharmProjects\large-v2.pt"
+  beats_path: "C:\Users\38644\PycharmProjects\BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt"
 
-  ckpt: "model ckpt" # if not "", load model from ckpt for training or evaluation
+  ckpt: "C:\Users\38644\PycharmProjects\SALMONN\salmonn_v1.pth" # if not "", load model from ckpt for training or evaluation
 
   freeze_whisper: True
   freeze_beats: True
